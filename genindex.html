@@ -12,7 +12,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Index | xFormers 0.0.31 documentation</title>
+  <title>Index | xFormers 0.0.32 documentation</title>
   
   <script src="_static/js/ga.js"></script>
   <script src="_static/js/redirect.js"></script>
@@ -22,7 +22,7 @@
   
   <link rel="canonical" href="https://facebookresearch.github.io/xformersgenindex.html" />
   
-  <meta property="og:title" content="Index | xFormers 0.0.31 documentation">
+  <meta property="og:title" content="Index | xFormers 0.0.32 documentation">
   <meta name="description" content="API docs for xFormers. xFormers is a PyTorch extension library for composable and optimized Transformer blocks.">
   <meta property="og:description" content="API docs for xFormers. xFormers is a PyTorch extension library for composable and optimized Transformer blocks.">
   <!--<meta property="og:image" content="https://mmf.sh/img/logo.png">-->
@@ -214,8 +214,7 @@
 <h1 id="index">Index</h1>
 
 <div class="genindex-jumpbox">
- <a href="#_"><strong>_</strong></a>
- | <a href="#A"><strong>A</strong></a>
+ <a href="#A"><strong>A</strong></a>
  | <a href="#B"><strong>B</strong></a>
  | <a href="#F"><strong>F</strong></a>
  | <a href="#L"><strong>L</strong></a>
@@ -226,14 +225,6 @@
  | <a href="#X"><strong>X</strong></a>
  
 </div>
-<h2 id="_">_</h2>
-<table style="width: 100%" class="indextable genindextable"><tr>
-  <td style="width: 33%; vertical-align: top;"><ul>
-      <li><a href="components/ops.html#xformers.ops.fmha.attn_bias.LowerTriangularMask.__new__">__new__() (xformers.ops.fmha.attn_bias.LowerTriangularMask static method)</a>
-</li>
-  </ul></td>
-</tr></table>
-
 <h2 id="A">A</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
@@ -263,11 +254,13 @@
 </li>
       <li><a href="components/ops.html#xformers.ops.fmha.attn_bias.BlockDiagonalCausalWithOffsetGappyKeysMask">BlockDiagonalCausalWithOffsetGappyKeysMask (class in xformers.ops.fmha.attn_bias)</a>
 </li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="components/ops.html#xformers.ops.fmha.attn_bias.BlockDiagonalCausalWithOffsetPaddedKeysMask">BlockDiagonalCausalWithOffsetPaddedKeysMask (class in xformers.ops.fmha.attn_bias)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="components/ops.html#xformers.ops.fmha.attn_bias.BlockDiagonalGappyKeysMask">BlockDiagonalGappyKeysMask (class in xformers.ops.fmha.attn_bias)</a>
+</li>
+      <li><a href="components/ops.html#xformers.ops.fmha.attn_bias.BlockDiagonalLocalAttentionPaddedKeysMask">BlockDiagonalLocalAttentionPaddedKeysMask (class in xformers.ops.fmha.attn_bias)</a>
 </li>
       <li><a href="components/ops.html#xformers.ops.fmha.attn_bias.BlockDiagonalMask">BlockDiagonalMask (class in xformers.ops.fmha.attn_bias)</a>
 </li>
@@ -308,8 +301,6 @@
       <li><a href="components/ops.html#xformers.ops.fmha.ck.FwOp">FwOp (class in xformers.ops.fmha.ck)</a>
 
       <ul>
-        <li><a href="components/ops.html#xformers.ops.fmha.ck_decoder.FwOp">(class in xformers.ops.fmha.ck_decoder)</a>
-</li>
         <li><a href="components/ops.html#xformers.ops.fmha.cutlass.FwOp">(class in xformers.ops.fmha.cutlass)</a>
 </li>
         <li><a href="components/ops.html#xformers.ops.fmha.flash.FwOp">(class in xformers.ops.fmha.flash)</a>
@@ -369,10 +360,10 @@
         <li><a href="components/ops.html#xformers.ops.fmha.attn_bias.PagedBlockDiagonalPaddedKeysMask.materialize">(xformers.ops.fmha.attn_bias.PagedBlockDiagonalPaddedKeysMask method)</a>
 </li>
       </ul></li>
-      <li><a href="components/ops.html#xformers.ops.memory_efficient_attention">memory_efficient_attention() (in module xformers.ops)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="components/ops.html#xformers.ops.memory_efficient_attention">memory_efficient_attention() (in module xformers.ops)</a>
+</li>
       <li><a href="components/ops.html#xformers.ops.fmha.memory_efficient_attention_backward">memory_efficient_attention_backward() (in module xformers.ops.fmha)</a>
 </li>
       <li><a href="components/ops.html#xformers.ops.fmha.memory_efficient_attention_forward">memory_efficient_attention_forward() (in module xformers.ops.fmha)</a>
@@ -394,8 +385,6 @@
         <li><a href="components/ops.html#module-xformers.ops.fmha.attn_bias">xformers.ops.fmha.attn_bias</a>
 </li>
         <li><a href="components/ops.html#module-xformers.ops.fmha.ck">xformers.ops.fmha.ck</a>
-</li>
-        <li><a href="components/ops.html#module-xformers.ops.fmha.ck_decoder">xformers.ops.fmha.ck_decoder</a>
 </li>
         <li><a href="components/ops.html#module-xformers.ops.fmha.ck_splitk">xformers.ops.fmha.ck_splitk</a>
 </li>
@@ -472,13 +461,6 @@
       </ul></li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
-      <li>
-    xformers.ops.fmha.ck_decoder
-
-      <ul>
-        <li><a href="components/ops.html#module-xformers.ops.fmha.ck_decoder">module</a>
-</li>
-      </ul></li>
       <li>
     xformers.ops.fmha.ck_splitk
 
